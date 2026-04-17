@@ -104,12 +104,3 @@ POST /ai/suggest-theme
   "language": "ru"
 }
 ```
-
-## Деплой на Railway
-
-1. Создай репозиторий на GitHub и залей туда эту папку
-2. Зайди на railway.app → New Project → Deploy from GitHub
-3. Выбери репозиторий
-4. В Settings → Variables добавь: GROQ_API_KEY=gsk_...
-5. Railway автоматически запустит сервис
-6. Скопируй публичный URL и передай бэкендеру
