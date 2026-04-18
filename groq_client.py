@@ -4,7 +4,7 @@ from groq import Groq
 
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
-MODEL = "openai/gpt-oss-120b"
+MODEL = "llama-3.3-70b-versatile"
 
 SYSTEM_PROMPT = """Ты — AI ассистент платформы oina.click для создания игр и открыток.
 Всегда отвечай ТОЛЬКО валидным JSON без markdown, без пояснений, без лишнего текста.
